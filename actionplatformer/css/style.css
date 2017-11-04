@@ -12,3 +12,10 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.videoback {
+  background-image: url("../resources/GIF.gif");
+  background-size: 1000px 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
