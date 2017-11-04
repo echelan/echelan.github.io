@@ -13,6 +13,10 @@
 	font-size: inherit;
 }
 
+body {
+    background-image: url("../resources_website/sayagata white.png");
+}
+
 /*
  * MAIN PALETTE
  */
