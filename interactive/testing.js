@@ -36,6 +36,9 @@ for (let x = 0; x < 36; x++) {
     .attr('fill',"white")
     .attr('font-size',20)
     .text("New Circle")
+    .on("click", function() {
+      makeDraggableCircle({x:450, y:850});
+    })
 
 
   root.append('rect')
@@ -52,6 +55,9 @@ for (let x = 0; x < 36; x++) {
     .attr('fill',"white")
     .attr('font-size',20)
     .text("New Rectangle")
+    .on("click", function() {
+      makeDraggableRect({x:450, y:850});
+    })
 
 
   root.append('rect')
