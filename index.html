@@ -17,27 +17,55 @@
 
   <body>
 
-    <br><br>
-    <div class="center">
-      <img src="resources_website/personal logo.png" height="350" width="350">
-    </div>
+    <div class="bcard center" id="headBlock">
+      <br><br>
 
-    <div class="section no-pad-bot" id="index-banner">
-      <div class="container">
-        <h2 class="header center color-text-primary-0">Andrés Movilla</h2>
-        <h5 class="center color-text-primary-2">Attempts are made.</h5>
+      <div class="center">
+        <img class="head" id="head" src="resources_website/personal logo.png" height="20%" width="20%">
+      </div>
+
+      <div class="block top-offset hidden style-color-red lighter" id="socialsBlock">
+        <h1 class="white-text">Twitter.</h1>
+        <h1 class="white-text">Instagram.</h1>
+      </div>
+
+      <div class="block hidden" id="nameBlock">
+        <h3 class="center style-color-text-purple">Andrés Movilla</h3>
+        <h5 class="center style-color-text-purple darker">Attempts are made.</h5>
+      </div>
+
+      <div class="block top-offset hidden style-color-blue lighter" id="workBlock">
+        <h1 class="white-text">E-Mail.</h1>
+        <h1 class="white-text">GitHub.</h1>
       </div>
     </div>
 
-    <br><br>
-    <a href="projects"><h3 class="header center white-text">Projects</h3></a>
+    <div class="nav">
+      <div class="block">
+        <h5 class="hidden center style-color-text-purple lighter" id="cv"> CV </h5>
+        <a class="waves-effect waves-light btn-large blue lighten-2 glow" id="cvBtn" href="cv"><i class="material-icons">description</i></a>
+      </div>
 
+      <div class="block">
+        <h5 class="hidden center style-color-text-purple lighter" id="me"> ABOUT ME </h5>
+        <a class="waves-effect waves-light btn-large blue lighten-2 glow" id="meBtn" href="me"><i class="material-icons">person</i></a>
+      </div>
+
+      <div class="block">
+        <h5 class="hidden center style-color-text-purple lighter" id="projects"> PROJECTS </h5>
+        <a class="waves-effect waves-light btn-large blue lighten-2 glow" id="projectsBtn" href="projects"><i class="material-icons">work</i></a>
+      </div>
+
+      <div class="block">
+        <h5 class="hidden center style-color-text-purple lighter" id="contact"> CONTACT </h5>
+        <div class="waves-effect waves-light btn-large blue lighten-2 glow" id="contactBtn"><i class="material-icons">alternate_email</i></div>
+      </div>
+    </div>
 
       <!--  Scripts-->
       <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script src="js/materialize.js"></script>
-      <script src="js/init.js"></script>
-
+      <script src="js/index.js"></script>
   </body>
 
 </html>
