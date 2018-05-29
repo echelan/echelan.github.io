@@ -1,11 +1,159 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
+body {
+    background-image: url("../resources_website/sayagata white.png");
+    margin: 0;
+    font-family: 'Lato';
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("/fonts/Lato-Regular.ttf") format("opentype");
+    font-weight: 400;
+}
+
+
+/*
+ *  BUTTONS
+ */
+.btn.disabled, .btn[disabled] {
+ pointer-events: none;
+ background-color: #DFDFDF !important;
+ box-shadow: none;
+ color: #9F9F9F !important;
+ cursor: default;
+}
+
+.btn.disabled:hover, .btn[disabled]:hover {
+ background-color: #DFDFDF !important;
+ color: #9F9F9F !important;
+}
+
+.btn i {
+ font-size: 1.3rem;
+ line-height: inherit;
+}
+
+.btn:focus {
+ background-color: #1d7d74;
+}
+
+.btn {
+ border: none;
+ border-radius: 2px;
+ display: inline-block;
+ height: 36px;
+ line-height: 36px;
+ padding: 0 2rem;
+ text-transform: uppercase;
+ vertical-align: middle;
+ -webkit-tap-highlight-color: transparent;
+ outline: 0;
+ text-decoration: none;
+ color: #fff;
+ background-color: #26a69a;
+ text-align: center;
+ letter-spacing: .5px;
+ transition: .2s ease-out;
+ cursor: pointer;
+}
+
+.btn:hover {
+ background-color: #2bbbad;
+}
+
+.btn.flat {
+  box-shadow: none;
+  background-color: transparent;
+  color: #343434;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.btn.flat:focus {
+  background-color: transparent;
+}
+
+.btn.flat:focus, .btn.flat:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
+.btn.flat:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn.flat.disabled {
+  background-color: transparent !important;
+  color: #b3b3b3 !important;
+  cursor: default;
+}
+
+.btn.large {
+  height: 54px;
+  line-height: 54px;
+}
+
+.btn.large i {
+  font-size: 1.6rem;
+}
+
+
+/*
+ *  LINKS
+ */
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+ outline: 0;
+}
+
+
+
+/*
+ *  ALIGNMENTS
+ */
+.hide {
+  display: none !important;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-align {
+  float: center !important;
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*
+ *  MATERIAL ICONS
+ */
 .icon-block {
   padding: 0 15px;
 }
@@ -14,137 +162,65 @@
 	font-size: inherit;
 }
 
-body {
-    background-image: url("../resources_website/sayagata white.png");
+i {
+  line-height: inherit;
 }
+
+i.left {
+  float: left;
+  margin-right: 15px;
+}
+
+i.right {
+  float: right;
+  margin-left: 15px;
+}
+
+i.tiny {
+  font-size: 1rem;
+}
+
+i.small {
+  font-size: 2rem;
+}
+
+i.medium {
+  font-size: 4rem;
+}
+
+i.large {
+  font-size: 6rem;
+}
+
 
 
 /*
- * MAIN PALETTE
+ *  PARALLAX
  */
-
- /* BACK */
- .style-color-purple {
-   background-color: #7100D3 !important
- }
-
- .style-color-purple.lightest {
-   background-color: #951EFC !important
- }
-
- .style-color-purple.lighter {
-   background-color: #8C07FF !important
- }
-
- .style-color-purple.darker {
-   background-color: #5600A0 !important
- }
-
- .style-color-purple.darkest {
-   background-color: #44007E !important
- }
-
-
- .style-color-red {
-   background-color: #E02218 !important
- }
-
- .style-color-red.lightest {
-   background-color: #FFBFBB !important
- }
-
- .style-color-red.lighter {
-   background-color: #F86760 !important
- }
-
- .style-color-red.darker {
-   background-color: #A00800 !important
- }
-
- .style-color-red.darkest {
-   background-color: #570400 !important
- }
-
-
- .style-color-blue {
-   background-color: #1F51CF !important
- }
-
- .style-color-blue.lightest {
-   background-color: #698ADE !important
- }
-
- .style-color-blue.lighter {
-   background-color: #436DD5 !important
- }
-
- .style-color-blue.darker {
-   background-color: #0C3CB3 !important
- }
-
- .style-color-blue.darkest {
-   background-color: #092D87 !important
- }
-
-/* TEXT */
-.style-color-text-purple {
-  color: #7100D3 !important
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
 }
 
-.style-color-text-purple.lightest-text {
-  color: #951EFC !important
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
-.style-color-text-purple.lighter-text {
-  color: #8C07FF !important
-}
-
-.style-color-text-purple.darker-text {
-  color: #5600A0 !important
-}
-
-.style-color-text-purple.darkest-text {
-  color: #44007E !important
-}
-
-
-.style-color-text-red {
-  color: #E02218 !important
-}
-
-.style-color-text-red.lightest-text {
-  color: #FFBFBB !important
-}
-
-.style-color-text-red.lighter-text{
-  color: #F86760 !important
-}
-
-.style-color-text-red.darker-text {
-  color: #A00800 !important
-}
-
-.style-color-text-red.darkest-text{
-  color: #570400 !important
-}
-
-
-.style-color-text-blue {
-  color: #1F51CF !important
-}
-
-.style-color-text-blue.lightest-text {
-  color: #698ADE !important
-}
-
-.style-color-text-blue.lighter-text {
-  color: #436DD5 !important
-}
-
-.style-color-text-blue.darker-text {
-  color: #0C3CB3 !important
-}
-
-.style-color-text-blue.darkest-text {
-  color: #092D87 !important
+.parallax img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
