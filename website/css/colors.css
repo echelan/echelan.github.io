@@ -66,6 +66,10 @@
    background-color: #ffffff !important;
  }
 
+ .black {
+   background-color: #000000 !important;
+ }
+
 
 
 /*
@@ -133,4 +137,8 @@
 
 .text-white {
   color: #ffffff !important;
+}
+
+.text-black {
+  color: #000000 !important;
 }

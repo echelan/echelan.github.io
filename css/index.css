@@ -1,0 +1,54 @@
+
+.header {
+  position: sticky;
+  padding-top: 10px;
+  padding-left: 30px;
+  top: 0;
+  height: 50px;
+  background-color: white;
+  font-size: 28px;
+  z-index: 1;
+}
+
+.header * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.field {
+  transition: 0.5s;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.field:hover {
+  background-color: rgba(0.5, 0.5, 0.5, 0.2);
+}
+
+.head {
+  transition: 0.5s;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 10px;
+  width: 7%;
+}
+
+.right {
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.body {
+  text-align: justify;
+  font-size: 20px;
+  width: 450px;
+}
+
+.split {
+  height: 20px;
+  background-image: url("../website/assets/sayagata black.png");
+  filter:brightness(2);
+}

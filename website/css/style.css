@@ -1,13 +1,13 @@
 
 body {
-    background-image: url("../resources_website/sayagata white.png");
+    background-image: url("../assets/sayagata white.png");
     margin: 0;
     font-family: 'Lato';
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url("/fonts/Lato-Regular.ttf") format("opentype");
+    src: url("../fonts/Lato-Regular.ttf") format("opentype");
     font-weight: 400;
 }
 
@@ -104,6 +104,7 @@ body {
 a {
   background-color: transparent;
   text-decoration: none;
+  color: inherit;
 }
 
 a:active,
@@ -149,6 +150,70 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+.top-align {
+  vertical-align: top;
+}
+
+.mid-align {
+  vertical-align: middle;
+}
+
+
+
+/*
+ *  BLOCKS
+ */
+.block {
+ display:inline-block;
+ vertical-align: top;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 20px;
+ left: auto;
+ right: auto;
+}
+
+.block.s1 {
+ width: 100%;
+}
+
+.block.s2 {
+ width: 50%;
+}
+
+.block.s3 {
+ width: 33.3333333333%;
+}
+
+.block.s4 {
+ width: 24%;
+}
+
+.block.s5 {
+ width: 20%;
+}
+
+.block.s6 {
+ width: 16.6666666666%;
+}
+
+.block.s7 {
+ width: 14.25%;
+}
+
+.block.s8 {
+ width: 12.5%;
+}
+
+.block.s9 {
+ width: 11.1111111111%;
+}
+
+.block.s10 {
+ width: 10%;
+}
+
 
 
 /*
