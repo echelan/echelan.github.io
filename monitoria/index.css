@@ -1,0 +1,24 @@
+
+.header {
+  position: sticky;
+  padding-top: 10px;
+  padding-left: 30px;
+  top: 0;
+  height: 50px;
+  background-color: white;
+  font-size: 28px;
+}
+
+.field {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.head {
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 10px;
+  width: 7%;
+}
