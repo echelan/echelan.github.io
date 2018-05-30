@@ -29,14 +29,24 @@
   vertical-align: middle;
 }
 
-.field {
+a img, a svg {
   transition: 0.5s;
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
-.field:hover {
-  background-color: rgba(0.5, 0.5, 0.5, 0.2);
+a img:hover, a svg:hover {
+  transform: scale(1.1);
+}
+
+.header .filled-button-dark {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.screen {
+  display: block;
+  width: 100%;
 }
 
 .head {
