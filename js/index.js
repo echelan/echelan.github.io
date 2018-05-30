@@ -1,7 +1,7 @@
 (function($){
   $(function(){
 
-    // KIM POSSIBLE REFERENCE
+    // KIM POSSIBLE
     var k = $("#k");
     var j = ["CALL ME","BEEP ME","REACH ME"];
     var i = Math.floor(Math.random()*10);
@@ -11,12 +11,21 @@
     var h = $("#h");
     h.hover(
       function() {
-        h.css("transform","rotate(360deg)");
+        h.css("transform","rotate(360deg) scale(1.3)");
       },
       function() {
-        h.css("transform","rotate(0deg)");
+        h.css("transform","rotate(0deg) scale(1)");
       }
     );
+
+    // PARALLAX
+    $('.parallax').parallax();
+
+
+    // KONAMI
+		new Konami(function() {
+			h.css("filter","invert(1)");
+		});
 
   });
 })(jQuery);
