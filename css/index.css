@@ -1,12 +1,26 @@
 
+@media all and (max-width: 900px) {
+
+     .hide-on-limit1 { display: none; }
+     .center-on-limit1 { width: 100%; }
+
+}
+
+@media all and (max-width: 300px) {
+
+     .hide-on-limit2 { display: none; }
+     .center-on-limit2 { width: 100%; }
+
+}
+
 .header {
   position: sticky;
-  padding-top: 10px;
+  padding-top: 6px;
   padding-left: 30px;
   top: 0;
-  height: 50px;
+  height: 4vw;
   background-color: white;
-  font-size: 28px;
+  font-size: 2vw;
   z-index: 1;
 }
 
@@ -37,14 +51,17 @@
   margin-right: 20px;
 }
 
-.title {
-  font-size: 36px;
+.large {
+  font-size: 2.75vw;
+}
+
+.medium {
+  font-size: 2vw;
 }
 
 .body {
   text-align: justify;
-  font-size: 20px;
-  width: 450px;
+  font-size: 1.5vw;
 }
 
 .split {
