@@ -28,13 +28,18 @@
 }
 
 .project .info {
-
   color: white;
   background-image: url("../../website/assets/sayagata black.png");
 }
 
+.crop {
+  height: 200px;
+  overflow: hidden;
+}
+
 .project .desc {
   width: 90%;
+  text-align: justify;
   padding: 10px;
   height: 120px;
 }
