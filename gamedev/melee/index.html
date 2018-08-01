@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- DUNGEONS PROJECT -->
+<!-- PINTABLE PROJECT -->
 <html>
 
   <head>
@@ -9,54 +9,73 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="../css_website/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../../website/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../../website/css/colors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../../website/css/header.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!--<link href="../css/project.css" type="text/css" rel="stylesheet" media="screen,projection"/>-->
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link rel="icon" href="../resources_website/icon.png">
+    <link rel="icon" href="../../website/assets/icon.png">
   </head>
 
   <body>
 
-    <br>
-    <div class="center">
-      <a href="/projects"><img src="../resources_website/personal logo.png" width="150" height="150"></a>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../../website/js/scripts.js"></script>
+    <script src="../../website/js/header.js"></script>
+
+    <div class="header">
+      <img class="head center-on-limit2" id="h" src="../../website/assets/personal logo.png">
+
+      <div class="hide-on-limit1">
+        <span class="large">Andrés Movilla</span>
+      </div>
+
+      <span class="hide-on-limit1">|</span>
+      <div class="btn ffx fx-dark enlarge">
+        <a href="../">CODE</a>
+      </div>
+
+      <span class="hide-on-limit1">|</span>
+      <div class="btn ffx fx-dark enlarge">
+        <a href="../../gamedesign">GAME DESIGN</a>
+      </div>
+
+      <span class="hide-on-limit1">|</span>
+      <div class="btn ffx fx-dark enlarge">
+        <a href="../../gamedev">GAME DEV</a>
+      </div>
+
+      <span class="hide-on-limit1">|</span>
+      <div class="btn ffx fx-dark enlarge">
+        <a href="../../film">FILM</a>
+      </div>
+
+      <span class="hide-on-limit1">|</span>
+      <div class="btn ffx fx-dark right enlarge">
+        <a href="../../contact" id="k">CONTACT</a>
+      </div>
     </div>
-    <h3 class="header center">Pintable Melee</h3>
+
+    <br>
+
+    <div class="center">
+      <h1>
+        Pintable Melee
+      </h1>
+    </div>
 
     <br><br><br>
 
-    <div class="parallax-container-custom">
-     <div class="parallax"><img  src="resources/wavesShowcase.gif"></div>
-   </div>
-
-  <br>
-
-  <h3 class="header center">In development</h3>
-  <br>
-  <footer class="page-footer grey lighten-1">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12 center">
-          <a  href="http://www.cub3dgames.com/"><img src="../resources_website/company logo.png"></a>
-        </div>
-        <div class="col l6 s12 center">
-          <a  href="/projects"><img src="../resources_website/personal logo.png" width="150" height="150"></a>
-        </div>
-
-      </div>
+    <div class="screen parallax-container" style="height:350px;">
+        <img src="assets/waves.gif" width="100%">
     </div>
 
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="black-text text-lighten-4" href="/">Andrés Movilla</a>
-      </div>
-    </div>
-  </footer>
+    <br>
 
+    <h3 class="center">In development</h3>
 
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="../js/materialize.js"></script>
-    <script src="js/init.js"></script>
+    <br>
 
   </body>
 

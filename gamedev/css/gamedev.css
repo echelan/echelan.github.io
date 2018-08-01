@@ -98,3 +98,7 @@ hr {
   margin-top: 20px;
   height: 370px;
 }
+
+.game .desc.dog {
+  height: 230px;
+}

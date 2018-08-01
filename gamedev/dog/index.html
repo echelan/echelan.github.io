@@ -9,23 +9,33 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="../css_website/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../../website/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../../website/css/colors.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../../website/css/header.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../css/project.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link rel="icon" href="../resources_website/icon.png">
+    <link rel="icon" href="../../website/assets/icon.png">
   </head>
 
-  <body class="color-primary-1">
+  <body>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../../website/js/scripts.js"></script>
+    <script src="../../website/js/header.js"></script>
+    <script src="js/init.js"></script>
 
     <br>
     <div class="center">
-      <img src="resources/dungeons.png">
+      <img src="assets/title.png">
     </div>
 
     <br><br><br>
 
-    <div class="parallax-container">
-     <div class="parallax"><img src="resources/map.png"></div>
-   </div>
+    <div class="screen parallax-container" style="height:500px;">
+      <div class="parallax">
+        <img src="assets/map.png" width="100%" style="top:-80%;">
+      </div>
+     </div>
 
    <br><br><br>
 
@@ -35,40 +45,20 @@
 
   <br><br>
 
-  <h4 class="center"> Old Screenshots </h6>
-    <div class="carousel center">
-      <a class="carousel-item"><img src="resources/promo1.png"></a>
-      <a class="carousel-item"><img src="resources/promo2.png"></a>
-      <a class="carousel-item"><img src="resources/promo3.png"></a>
-    </div>
-
+  <h2 class="center">Old Gallery</h1>
+  <div class="center gallery">
+    <a class="item" href="assets/promo1.png">
+      <img class="pic" src="assets/promo1.png" style="margin: -22px 0 0 -15px;">
+    </a>
+    <a class="item" href="assets/promo2.png">
+      <img class="pic" src="assets/promo2.png" style="margin: -22px 0 0 -15px;">
+    </a>
+    <a class="item" href="assets/promo3.png">
+      <img class="pic" src="assets/promo3.png" style="margin: -22px 0 0 -15px;">
+    </a>
+  </div>
   <br><br><br>
 
-  <footer class="page-footer color-primary-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <a  href="http://www.cub3dgames.com/"><img src="../resources_website/company logo.png"></a>
-        </div>
-        <div class="col l3 s6 offset-s3">
-          <a  href="/projects"><img src="../resources_website/personal logo.png" width="150" height="150"></a>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="black-text text-lighten-4" href="/">Andrés Movilla</a>
-      </div>
-    </div>
-  </footer>
-
-
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="../js/materialize.js"></script>
-    <script src="js/init.js"></script>
 
   </body>
 
