@@ -1,59 +1,28 @@
 
-
-body {
-    background-image: url("../resources_website/sayagata black.png");
+.screen {
+  display: block;
+  width: 100%;
 }
 
-.hidden {
-  transition: 0.5s;
-  opacity: 0;
+.right {
+  margin-right: 20px;
 }
 
-.top-offset {
-  transform: translate(0%,-150%);
+.large {
+  font-size: 2.75vw;
 }
 
-.bcard {
-  width: 90%;
+.medium {
+  font-size: 2vw;
 }
 
-.bcard .block {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 100px;
-  text-align: center;
-  border-radius: 20px;
-  width: 32%;
+.body {
+  text-align: justify;
+  font-size: 1.5vw;
 }
 
-.nav {
-  bottom: 10%;
-  position: absolute;
-  width: 90%;
-  left: 5%;
-}
-
-.nav .block {
-  display: inline-block;
-  text-align: center;
-  width: 24%;
-  padding: 5px;
-}
-
-.glow {
-  transition: 0.25s;
-}
-
-.glow:hover {
-    text-shadow: 0px 0px 10px #FFF;
-}
-
-.head {
-  transition: 0.5s;
-  margin: auto;
-}
-
-.center {
-  width: 90%;
-  margin: auto;
+.split {
+  height: 20px;
+  background-image: url("../website/assets/sayagata black.png");
+  filter:brightness(2);
 }
