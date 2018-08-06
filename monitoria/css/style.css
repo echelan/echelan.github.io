@@ -1,0 +1,22 @@
+
+.exercise {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.exercise.hard {
+  background-color: #f44336;
+}
+
+
+.exercise.easy {
+  background-color: #4caf50;
+}
+
+
+.exercise.medium {
+  background-color: #ff9800;
+}
