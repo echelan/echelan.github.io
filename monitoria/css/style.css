@@ -20,3 +20,10 @@
 .exercise.medium {
   background-color: #ff9800;
 }
+
+.code {
+  background-color: white;
+  font-family: 'RobotoMono';
+  text-align: left;
+  padding: 5px;
+}
