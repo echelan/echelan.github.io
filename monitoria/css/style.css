@@ -26,5 +26,15 @@
   font-family: 'RobotoMono';
   text-align: left;
   padding: 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+}
+
+.chapters a {
+  color: #1F51CF;
+  transition: 0.5s;
+  line-height: 1.5;
+}
+
+.chapters a:hover {
+  transform: scale(1.1);
 }
