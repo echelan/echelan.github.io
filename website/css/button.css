@@ -1,0 +1,79 @@
+
+
+/*
+ *  BUTTONS
+ */
+.btn {
+  display: inline-block;
+  line-height: 36px;
+  padding-left: 1%;
+  padding-right: 1%;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn.rounded {
+ border: none;
+ border-radius: 2px;
+}
+
+.btn.disabled, .btn[disabled] {
+ pointer-events: none;
+ background-color: #DFDFDF !important;
+ box-shadow: none;
+ color: #9F9F9F !important;
+ cursor: default;
+}
+
+.btn.disabled:hover, .btn[disabled]:hover {
+ background-color: #DFDFDF !important;
+ color: #9F9F9F !important;
+}
+
+.btn i {
+ font-size: 1.3rem;
+ margin-right: 10px;
+ vertical-align: top;
+ line-height: inherit;
+}
+
+.btn.flat {
+  box-shadow: none;
+  background-color: transparent;
+  color: #343434;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.btn.flat:focus {
+  background-color: transparent;
+}
+
+.btn.flat:focus, .btn.flat:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
+.btn.flat:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn.flat.disabled {
+  background-color: transparent !important;
+  color: #b3b3b3 !important;
+  cursor: default;
+}
+
+.btn.large {
+  height: 54px;
+  line-height: 54px;
+}
+
+.btn.large i {
+  font-size: 1.6rem;
+}
