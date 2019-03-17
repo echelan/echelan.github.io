@@ -66,9 +66,13 @@
    background-color: #ffffff !important;
  }
 
- .black {
+ .trueblack {
    background-color: #000000 !important;
  }
+
+.black {
+  background-color: #282828 !important;
+}
 
 
 
@@ -139,6 +143,10 @@
   color: #ffffff !important;
 }
 
-.text-black {
+.text-trueblack {
   color: #000000 !important;
+}
+
+.text-black {
+  color: #282828 !important;
 }
