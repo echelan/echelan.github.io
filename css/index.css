@@ -1,6 +1,9 @@
-
+body {
+    font-size: 18px;
+}
 .screen {
   display: block;
+  height: 175px;
   width: 100%;
 }
 
@@ -22,7 +25,7 @@
 }
 
 .split {
-  height: 20px;
-  background-image: url("../website/assets/sayagata black.png");
+  height: 60px;
+  background-image: url("../website/assets/runes_black.png");
   filter:brightness(2);
 }
