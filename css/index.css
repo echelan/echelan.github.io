@@ -1,5 +1,6 @@
 body {
     font-size: 18px;
+    background-image: url("../website/assets/runes_black.png");
 }
 .screen {
   display: block;
@@ -26,6 +27,4 @@ body {
 
 .split {
   height: 60px;
-  background-image: url("../website/assets/runes_black.png");
-  filter:brightness(2);
 }
