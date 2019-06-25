@@ -9,6 +9,7 @@
 
     <!-- CSS  -->
     <link href="../website/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/code.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="../website/css/header.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="icon" href="../website/assets/icon.png">
   </head>
@@ -17,94 +18,6 @@
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="../website/js/header.js"></script>
-
-    <style>
-      .container {
-      	display: grid;
-      	grid-auto-rows: 350px;
-      	grid-template-columns: repeat(auto-fill, minmax(300px, 350px));
-        place-items: center;
-        place-content: space-around;
-      }
-      
-      .card {
-      	width: 300px !important;
-      	height: 300px !important;
-        overflow: hidden;
-        display: inline-block;
-        transition: 0.5s;
-        transform-style: preserve-3d;
-      }
-
-      .card .front, .card .back {
-      	width: 300px !important;
-      	height: 300px !important;
-        border-radius: 15px;
-      }
-
-      .card .front {
-        z-index: 4;
-        background: #009FB7;
-        transform: translateY(-100%);
-        color: #F4F4F8;
-        overflow: hidden;
-        transition: 0.5s;
-        backface-visibility: hidden;
-      }
-
-      .card:hover .front {
-        transform: translateY(-100%) rotateY(180deg);
-      }
-
-      .card .back {
-        background: #0091A7;
-        color: #F4F4F8;
-        transform: rotateY(180deg);
-        transition: 0.5s;
-        overflow: hidden;
-        backface-visibility: hidden;
-      }
-
-      .card:hover .back {
-        transform: rotateY(0deg);
-      }
-
-      .card .front .img{
-        height: 80%;
-        width: 100%;
-        overflow: hidden;
-      }
-
-      .card .front .caption{
-        padding: 15px;
-      }
-
-      .card .front .caption .title {
-        text-align: center;
-        font-size: 24px;
-        margin: 5px;
-      }
-
-      .card .front .caption .subtitle {
-        text-align: center;
-        font-size: 24px;
-        margin: 0;
-        color: #E4E0C9;
-      }
-
-      .card .back .title{
-        text-align: center;
-        margin: 25px 0;
-      }
-
-      .card .back .description {
-        padding: 10px;
-        font-size: 18px;
-        text-align: justify;
-      }
-
-
-    </style>
 
     <div class="header" id="header-container"></div>
 
