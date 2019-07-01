@@ -17,39 +17,6 @@ body {
     font-weight: 400;
 }
 
-
-
-/*
- *  HIDERS
- */
-@media all and (max-width: 900px) {
-
-     .hide-on-limit1 { display: none; }
-     .center-on-limit1 { width: 100%; }
-
-}
-
-@media all and (max-width: 300px) {
-
-     .hide-on-limit2 { display: none; }
-     .center-on-limit2 { width: 100%; }
-
-}
-
-
-
-.enlarge {
-  transition: 0.5s;
-}
-
-.enlarge:hover {
-  transform: scale(1.1);
-}
-
-
-/*
- *  LINKS
- */
 a {
   background-color: transparent;
   text-decoration: none;

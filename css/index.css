@@ -3,6 +3,30 @@ body {
     background-image: url("../website/assets/runes_black.png");
 }
 
+.purple {
+ background: #5600A0;
+}
+
+.red {
+ background: #A00800;
+}
+
+.black {
+  background: black;
+}
+
+.white {
+ background: white;
+}
+
+.blue {
+  background: #436DD5;
+}
+
+.text-white {
+  color: white;
+}
+
 .right {
   margin-right: 20px;
 }
@@ -54,6 +78,7 @@ body {
 }
 
 .section-block {
+  text-align: center;
   width: 600px;
   margin:auto;
   padding: 15px;
