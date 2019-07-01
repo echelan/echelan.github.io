@@ -78,6 +78,7 @@ body {
 }
 
 .section-block {
+  display: block;
   text-align: center;
   width: 600px;
   margin:auto;
