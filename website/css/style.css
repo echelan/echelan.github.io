@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("/assets/runes_white.png");
+    background-image: url("../assets/runes_white.png");
     margin: 0;
     font-family: 'Lato';
 }
