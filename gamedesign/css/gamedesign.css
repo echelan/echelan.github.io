@@ -1,4 +1,14 @@
 
+.container {
+  display: grid;
+  grid-auto-rows: 260px;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 500px));
+  place-items: center;
+  place-content: space-around;
+  grid-row-gap: 50px;
+  transition: 1s;
+}
+
 .game {
   width: 450px;
   height: 250px;
