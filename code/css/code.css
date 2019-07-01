@@ -31,6 +31,7 @@
   transition: 0.5s;
   backface-visibility: hidden;
 }
+
 .card:hover {
   transform: scale(1.15);
   filter: drop-shadow( 7px 7px 5px rgba(0, 0, 0, .7));
